@@ -1,0 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/opium');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Opium', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-image: url(op.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.xxx{
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 130px;
+    padding-top: 300px;
+    text-shadow: 0 0 20px #fff;
+    white-space: nowrap;
+    width: 0;
+    margin-left: -1000px;
+}
+
+main img{
+    width: 600px;
+    padding: 10px 10px;
+}

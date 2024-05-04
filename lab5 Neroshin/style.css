@@ -1,0 +1,46 @@
+
+    *{
+        font-family: "Comfortaa", sans-serif;
+        background-color: #fff0f0;
+    }
+    
+    h1{
+        text-align: center;
+    }
+
+    .inpt {
+        padding: 0 10% 0 20%;
+        box-sizing: border-box; 
+    }
+    .inp {
+        padding: 0 10% 0 20%;
+        box-sizing: border-box; 
+    }
+
+    .inpt input {
+        width: 200px;
+        box-sizing: border-box; 
+    }
+
+    .container{
+
+        margin: 0 50px 0 50px;
+    }
+
+    img{
+        width: 300px;
+    }
+
+    table{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    table tr{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    td{
+        margin: 10px 10px;
+    }

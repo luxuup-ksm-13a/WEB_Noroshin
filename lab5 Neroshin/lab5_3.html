@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн-доставка їжі</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=El+Messiri:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Онлайн-доставка їжі</h1>
+    <form>
+        <fieldset>
+            <legend>Авторизація</legend>
+            <label for="login">Логін:</label><br>
+            <input type="text" id="login" name="login" required><br>
+            <label for="password">Пароль:</label><br>
+            <input type="password" id="password" name="password" required><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Вибір ресторану</legend>
+            <select name="restaurants" id="restaurants">
+                <option value="restaurant1">Ресторан 1</option>
+                <option value="restaurant2">Ресторан 2</option>
+            </select><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Акційні страви</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" id="dish1" name="dish1" value="dish1"> Риба<br><img src="dish1.png" alt="Ім'я страви 1"></td>
+                    <td><input type="checkbox" id="dish2" name="dish2" value="dish2"> Прикольна штука<br><img src="dish2.png" alt="Ім'я страви 2"></td>
+                    <td><input type="checkbox" id="dish3" name="dish3" value="dish3"> Ну це для фітоняшок<br><img src="dish3.png" alt="Ім'я страви 3"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="dish4" name="dish4" value="dish4"> Виглядає секуально <br><img src="dish4.png" alt="Ім'я страви 4"></td>
+                    <td><input type="checkbox" id="dish5" name="dish5" value="dish5"> Клопотенко щось знову придумав<br><img src="dish5.png" alt="Ім'я страви 5"></td>
+                    <td><input type="checkbox" id="dish6" name="dish6" value="dish6"> Це вже по людські <br><img src="dish6.png" alt="Ім'я страви 6"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Дата та час доставки</legend><br>
+            <label for="deliveryDate">Дата:</label>
+            <input type="date" id="deliveryDate" name="deliveryDate" required><br><br>
+            <label for="deliveryTime">Час:</label>
+            <input type="time" id="deliveryTime" name="deliveryTime" required><br><br>
+        </fieldset>
+        <br>
+        <fieldset><br>
+            <legend>Спосіб оплати</legend>
+            <input type="radio" id="paymentCard" name="payment" value="card" checked>
+            <label for="paymentCard">Карткою</label><br>
+            <input type="radio" id="paymentCash" name="payment" value="cash">
+            <label for="paymentCash">Готівкою</label><br><br>
+        </fieldset>
+        <br>
+        <fieldset><br>
+            <legend>Побажання клієнта</legend>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+        </fieldset><br>
+        <input type="submit" value="Відправити замовлення">
+    </form>
+</body>
+</html>
